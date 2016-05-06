@@ -48,7 +48,7 @@
     (hl-paren-color-update)))
 
 (defcustom hl-paren-colors
-  '("firebrick1" "IndianRed1" "IndianRed3" "IndianRed4")
+  '("#800026" "#bd0026" "#e31a1c" "#fc4e2a" "#fd8d3c" "#feb24c" "#fed976" "#ffeda0" "#ffffcc")
   "List of colors for the highlighted parentheses.
 The list starts with the the inside parentheses and moves outwards."
   :type '(repeat color)
